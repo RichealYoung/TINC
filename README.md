@@ -2,28 +2,26 @@
 
 <img src="docs/assets_readme/TINC_method.jpg" width="80%"/>
 
-<img src="docs/assets_readme/TINC_compare_roi.jpg" width="80%"/>
+<img src="docs/assets_readme/TINC_compare_roi.jpg" width="50%"/>
 
 # 🚀Quickstart
 The source codes are coming soon.
 # 😘Citations
 
-	@misc{https://doi.org/10.48550/arxiv.2209.15180,
-	doi = {10.48550/ARXIV.2209.15180},
-	
-	url = {https://arxiv.org/abs/2209.15180},
-	
-	author = {Yang, Runzhao and Xiao, Tingxiong and Cheng, Yuxiao and Cao, Qianni and Qu, Jinyuan and Suo, Jinli and Dai, Qionghai},
-	
-	title = {SCI: A Spectrum Concentrated Implicit Neural Compression for Biomedical Data},
-	
-	publisher = {arXiv},
-	
-	year = {2022},
-	
-	copyright = {arXiv.org perpetual, non-exclusive license}
-	}
+	@misc{yang2022tinc,
 
+      title={TINC: Tree-structured Implicit Neural Compression}, 
+      
+      author={Runzhao Yang and Tingxiong Xiao and Yuxiao Cheng and Jinli Suo and Qionghai Dai},
+      
+      year={2022},
+      
+      eprint={2211.06689},
+      
+      archivePrefix={arXiv},
+      
+      primaryClass={cs.CV}
+}
 # 💡Contact
 If you need any help or are looking for cooperation feel free to contact us.
 yangrz20@mails.tsinghua.edu.cn
