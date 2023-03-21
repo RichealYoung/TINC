@@ -1,5 +1,5 @@
 # 💾Tree-structured Implicit Neural Compression (TINC)
-
+Our paper was accepted to CVPR2023. You can also find our full-version paper [on arXiv](https://arxiv.org/abs/2211.06689)
 <img src="docs/assets_readme/TINC_method.jpg" width="80%"/>
 
 <img src="docs/assets_readme/TINC_compare_roi.jpg" width="50%"/>
