@@ -7,19 +7,12 @@
 # 🚀Quickstart
 The source codes are coming soon.
 # 😘Citations
-
 	@misc{yang2022tinc,
-
       title={TINC: Tree-structured Implicit Neural Compression}, 
-      
-      author={Runzhao Yang and Tingxiong Xiao and Yuxiao Cheng and Jinli Suo and Qionghai Dai},
-      
+      author={Runzhao Yang and Tingxiong Xiao and Yuxiao Cheng and Jinli Suo and Qionghai Dai}, 
       year={2022},
-      
       eprint={2211.06689},
-      
       archivePrefix={arXiv},
-      
       primaryClass={cs.CV}
 }
 # 💡Contact
