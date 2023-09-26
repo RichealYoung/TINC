@@ -36,14 +36,13 @@ relevant compression parameters can be modified in **opt/MultiTask/default.yaml*
 
     python MultiTask.py -p opt/MultiTask/default.yaml -g 0,1,2,3 -stp main.py -debug
 # 😘Citations
-	@misc{yang2022tinc,
-      title={TINC: Tree-structured Implicit Neural Compression}, 
-      author={Runzhao Yang and Tingxiong Xiao and Yuxiao Cheng and Jinli Suo and Qionghai Dai}, 
-      year={2022},
-      eprint={2211.06689},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+	@inproceedings{yang2023tinc,
+	  title={TINC: Tree-structured Implicit Neural Compression},
+	  author={Yang, Runzhao},
+	  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+	  pages={18517--18526},
+	  year={2023}
+	}
 # 💡Contact
 If you need any help or are looking for cooperation feel free to contact us.
 yangrz20@mails.tsinghua.edu.cn
