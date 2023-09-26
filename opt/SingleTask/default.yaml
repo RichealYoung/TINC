@@ -1,0 +1,36 @@
+Reproduc: 
+  seed: 42
+  benchmark: false
+  deterministic: true
+CompressFramwork:
+  Path: data/test.tif
+  Ratio: 64
+  Train:
+    batch_size: 262144
+    epochs: 10000
+    device: cuda
+    optimizer: 
+      type: Adamax
+      lr: 1e-3
+    lr_scheduler:
+      name: MultiStepLR
+      milestones: [20000,50000]
+      gamma: 0.2
+    weight: [2001,65535,0.01]
+  Eval:
+    batch_size: 262144
+    epochs: 1000
+    device: cuda
+  Preprocess:
+    normal_min: 0
+    normal_max: 100
+  Network:
+    input: 3
+    output: 1
+    level_info: [[1.0, 2, Sine, euqal], [0.8, 2, Sine, equal], [1.5, 3, Sine, aoi]]  # [parameter ratio, layer, act, allocate]
+    w0: 30
+
+Log: 
+  project_name: default
+  stdlog: false
+  tensorboard: true
